@@ -9,3 +9,12 @@ function Letter (character, guessedLetter, returnLetter){
         }else{
             return "_"
         }
+    this.checkBoolean = function(){
+        if (letterGuess ===  LetterInGame){
+                this.guessedCorrect = true;
+        }else{
+                this.correct = false;
+            }
+    }
+    }
+};
