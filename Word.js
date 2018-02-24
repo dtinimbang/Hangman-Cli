@@ -1,0 +1,1 @@
+//An array of `new` Letter objects representing the letters of the underlying word
