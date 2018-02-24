@@ -18,3 +18,5 @@ function Letter (character, guessedLetter, returnLetter){
     }
     }
 };
+
+module.exports = letter;
