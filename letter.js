@@ -9,7 +9,7 @@ function Letter (character, guessedLetter, returnLetter){
         }else{
             return "_"
         }
-    this.checkBoolean = function(){
+    this.checkBoolean = function(letterGuess, LetterInGame){
         if (letterGuess ===  LetterInGame){
                 this.guessedCorrect = true;
         }else{
