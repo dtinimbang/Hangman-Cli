@@ -3,7 +3,7 @@ var inquirer = require('inquirer');
 function Letter (character, guessedLetter, returnLetter){
     this.character = character;
     this.guessedLetter = false;
-    this.returnLetter = function {
+    this.returnLetter = function() {
         if(this.guessedLetter){
             return character;
         }else{
@@ -16,5 +16,5 @@ function Letter (character, guessedLetter, returnLetter){
         this.correct = false;
     }
     }
+}
 };
-
