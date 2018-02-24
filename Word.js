@@ -1,7 +1,7 @@
 // require letter.js using var word
 
 var word = require("./letter.js");
-
+var guess = process.argv(2)
 
 // An array of `new` Letter objects 
 // representing the letters of the 
